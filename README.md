@@ -1,7 +1,7 @@
 # Identificación de productos para el Laboratorio de Almacenamiento de la universidad EAFIT
 
 ## Descripción
-Herramienta de reconocimiento de imágenes para identificar productos del Laboratorio de Almacenamiento de la universidad EAFIT, que tienen la particularidad de ser muy similares entre sí y dado su tamaño no es posible colocarles códigos de barras.
+Herramienta de reconocimiento de imágenes para identificar productos del Laboratorio de Almacenamiento de la Universidad EAFIT, que tienen la particularidad de ser muy similares entre sí y dado su tamaño no es posible colocarles códigos de barras.
 
 ![prods_ex_2](/images/prods_ex_2.PNG?raw=true "prods_ex_2")
 
@@ -11,7 +11,7 @@ La arquitectura usada toma como base *Inception v3* eliminando las capas superio
 ![architecture](/images/arch.png?raw=true "architecture")
 
 ## Arquitectura del código
-El código está dividido en los módulos de Data processing, Preprocessing, Training y Postprocessing. 
+El código está dividido en los módulos: Data processing, Preprocessing, Training y Postprocessing. 
 
 ### Data processing
 En este módulo se encuentran los scripts `preprocess` y `split_data`. `preprocess` escala las imágenes a resolución 299x299px y `split_data` divide el dataset  en los directorios `train`, `dev` y `set`.
