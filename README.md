@@ -1,4 +1,4 @@
-# Identificación de productos para el Laboratorio de Almacenamiento de la universidad EAFIT
+# Identificación de productos para el Laboratorio de Almacenamiento de la Universidad EAFIT
 
 ## Descripción
 Herramienta de reconocimiento de imágenes para identificar productos del Laboratorio de Almacenamiento de la Universidad EAFIT, que tienen la particularidad de ser muy similares entre sí y dado su tamaño no es posible colocarles códigos de barras.
