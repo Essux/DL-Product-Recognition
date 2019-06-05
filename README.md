@@ -14,7 +14,7 @@ La arquitectura usada toma como base *Inception v3* eliminando las capas superio
 El código está dividido en los módulos de Data processing, Preprocessing, Training y Postprocessing. 
 
 ### Data processing
-En este módulo se encuentran los scripts `preprocess` y `split_data`. `preprocess` escala las imágenes a resolución 299x299x3*px* y `split_data` divide el dataset  en los directorios `train`, `dev` y set.
+En este módulo se encuentran los scripts `preprocess` y `split_data`. `preprocess` escala las imágenes a resolución 299x299px y `split_data` divide el dataset  en los directorios `train`, `dev` y `set`.
 
 ### Preprocessing
 En preprocessing se encuentra el código de los generadores usados para entrenar el modelo. En el generador de training se aplican las siguientes estrategias de *Data augmentation*:
