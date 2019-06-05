@@ -18,7 +18,13 @@ def train_dev_test_split(arr, train_size, dev_size):
     test_id = floor(len(arr)*dev_size) + train_id
     return arr[:train_id], arr[test_id:], arr[train_id:test_id]
 
+# Minimum photos required to include a class
+THRESHOLD = 45
+
+count = 0
 for i, f in enumerate(files):
+    if len(f)>=THRESHOLD: count += 1
+    else: continue
     data_partitioned = train_dev_test_split(f, train_size=0.6, dev_size=0.2)
     folder_names = ('train', 'dev', 'test')
     for partition, part_folder in zip(data_partitioned, folder_names):
@@ -35,3 +41,5 @@ for i, f in enumerate(files):
     for part_name, part_size in zip(folder_names, map(len, data_partitioned)):
         print('{}: {}'.format(part_name, part_size), end=' ')
     print()
+
+print('Selected {} classes with threshold {}'.format(count, THRESHOLD))
