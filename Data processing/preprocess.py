@@ -5,7 +5,7 @@ from tqdm import tqdm
 rootdir = './dataset'
 
 iters = 0
-N = 200
+N = 299
 for subdir, dirs, files in tqdm(list(os.walk(rootdir))):
     for file in files:
         #if iters>10: break
