@@ -5,7 +5,9 @@
 
 ## Arquitectura del código
 
-![architecture](/images/architecture.png?raw=true "architecture")
+## Arquitectura de la red
+
+![architecture](/images/arch.png?raw=true "architecture")
 
 ## Integrantes
 * Juan José Suarez Estrada - jsuarestra32@eafit.edu.co
