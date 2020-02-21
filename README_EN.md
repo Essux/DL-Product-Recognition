@@ -1,7 +1,7 @@
 # Product identification for EAFIT's Warehousing Lab
 
 ## Description
-Tool for product identification in EAFIT's Warehousing Lab. These products are dummy objects that are very similar between each other and given their size it is not possible to use barcodes. This software would therefore demonstrate product identification to replace barcodes.
+Tool for product identification in EAFIT's Warehousing Lab. These products are dummy objects that are very similar between each other and given their size it is not possible to use barcodes. This software would therefore demonstrate product identification to replace barcodes. This project just contains the code for the training and construction of a neural network, the code of the web application that uses the model can be found [here](https://github.com/hamax97/Product-Recognition).
 
 ![prods_ex_2](/images/prods_ex_2.PNG?raw=true "prods_ex_2")
 
